@@ -13,6 +13,13 @@
       crossorigin="anonymous"
     />
 
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+    </style>
+
     <title>Hello, world!</title>
   </head>
   <body class="bg-dark">
@@ -62,8 +69,8 @@
               </div>
             </form>
             <!--loader -->
-            <div id="loading" style="display: none">
-              <img src="image/loading.gif" alt="loader">
+            <div id="loading">
+              <img src="image/loading.gif" alt="loader" />
             </div>
             <!--Results-->
             <div id="results" class="pt-4">
